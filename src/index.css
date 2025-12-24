@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Noto-bold;
+  src: url(/src/assets/Fonts/NotoSansJP-Bold.ttf);
+}
+
+@font-face {
+  font-family: Noto-regular;
+  src: url(/src/assets/Fonts/NotoSansJP-Regular.ttf);
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-regular: Noto-regular, "sans-serif";
+  --font-bold: Noto-bold, "sans-serif";
+}
